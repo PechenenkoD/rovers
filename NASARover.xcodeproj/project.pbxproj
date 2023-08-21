@@ -7,18 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		193D9C382A935BD200ACB575 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193D9C372A935BD200ACB575 /* ListViewModel.swift */; };
+		193D9C3A2A935CD900ACB575 /* RoversViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193D9C392A935CD900ACB575 /* RoversViewModel.swift */; };
+		193D9C3C2A935DA600ACB575 /* RoverPhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193D9C3B2A935DA600ACB575 /* RoverPhotoViewModel.swift */; };
+		198FDE1F2A90ED3B00F23A9F /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198FDE1E2A90ED3B00F23A9F /* Text.swift */; };
+		198FDE212A90ED5E00F23A9F /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198FDE202A90ED5E00F23A9F /* Date.swift */; };
 		19B18DC62A8E7BD9008E4B74 /* NASARoverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B18DC52A8E7BD9008E4B74 /* NASARoverApp.swift */; };
-		19B18DC82A8E7BD9008E4B74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B18DC72A8E7BD9008E4B74 /* ContentView.swift */; };
+		19B18DC82A8E7BD9008E4B74 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B18DC72A8E7BD9008E4B74 /* MainView.swift */; };
 		19B18DCA2A8E7BDD008E4B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B18DC92A8E7BDD008E4B74 /* Assets.xcassets */; };
 		19B18DCD2A8E7BDD008E4B74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B18DCC2A8E7BDD008E4B74 /* Preview Assets.xcassets */; };
+		19B18DD72A8E7C78008E4B74 /* MainData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B18DD62A8E7C78008E4B74 /* MainData.swift */; };
+		19B18DD92A8E7CC8008E4B74 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B18DD82A8E7CC8008E4B74 /* MainModel.swift */; };
+		19B18DDB2A8E7CE4008E4B74 /* MainRoverAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B18DDA2A8E7CE4008E4B74 /* MainRoverAPI.swift */; };
+		19B18DDD2A8E7E98008E4B74 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B18DDC2A8E7E98008E4B74 /* ListView.swift */; };
+		19B18DDF2A8E7EA4008E4B74 /* RoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B18DDE2A8E7EA4008E4B74 /* RoversView.swift */; };
+		19B18DE12A8E8116008E4B74 /* MarsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B18DE02A8E8116008E4B74 /* MarsImageView.swift */; };
+		19B18DE32A8E814E008E4B74 /* MarsImageInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B18DE22A8E814E008E4B74 /* MarsImageInfoView.swift */; };
+		19D60DA32A8F765B0011A4E4 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D60DA22A8F765B0011A4E4 /* View.swift */; };
+		19D60DA52A8F7BB60011A4E4 /* RoverManifestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D60DA42A8F7BB60011A4E4 /* RoverManifestView.swift */; };
+		19D60DA72A8F81950011A4E4 /* RoverPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D60DA62A8F81950011A4E4 /* RoverPhotoView.swift */; };
+		1DE73F4F637B62BC0A2D38F9 /* Pods_NASARover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6CAA7977E3E7409A57C554 /* Pods_NASARover.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		193D9C372A935BD200ACB575 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		193D9C392A935CD900ACB575 /* RoversViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversViewModel.swift; sourceTree = "<group>"; };
+		193D9C3B2A935DA600ACB575 /* RoverPhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverPhotoViewModel.swift; sourceTree = "<group>"; };
+		198FDE1E2A90ED3B00F23A9F /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		198FDE202A90ED5E00F23A9F /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		19B18DC22A8E7BD9008E4B74 /* NASARover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASARover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B18DC52A8E7BD9008E4B74 /* NASARoverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASARoverApp.swift; sourceTree = "<group>"; };
-		19B18DC72A8E7BD9008E4B74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19B18DC72A8E7BD9008E4B74 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		19B18DC92A8E7BDD008E4B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19B18DCC2A8E7BDD008E4B74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19B18DD62A8E7C78008E4B74 /* MainData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainData.swift; sourceTree = "<group>"; };
+		19B18DD82A8E7CC8008E4B74 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		19B18DDA2A8E7CE4008E4B74 /* MainRoverAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRoverAPI.swift; sourceTree = "<group>"; };
+		19B18DDC2A8E7E98008E4B74 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		19B18DDE2A8E7EA4008E4B74 /* RoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversView.swift; sourceTree = "<group>"; };
+		19B18DE02A8E8116008E4B74 /* MarsImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsImageView.swift; sourceTree = "<group>"; };
+		19B18DE22A8E814E008E4B74 /* MarsImageInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsImageInfoView.swift; sourceTree = "<group>"; };
+		19D60DA22A8F765B0011A4E4 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		19D60DA42A8F7BB60011A4E4 /* RoverManifestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverManifestView.swift; sourceTree = "<group>"; };
+		19D60DA62A8F81950011A4E4 /* RoverPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverPhotoView.swift; sourceTree = "<group>"; };
+		2A9AFF8FC3ECD210046CE14E /* Pods-NASARover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASARover.debug.xcconfig"; path = "Target Support Files/Pods-NASARover/Pods-NASARover.debug.xcconfig"; sourceTree = "<group>"; };
+		2D6CAA7977E3E7409A57C554 /* Pods_NASARover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NASARover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FECE61785D4865CCFF587E /* Pods-NASARover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASARover.release.xcconfig"; path = "Target Support Files/Pods-NASARover/Pods-NASARover.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +60,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE73F4F637B62BC0A2D38F9 /* Pods_NASARover.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		198FDE142A90E5FE00F23A9F /* ListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				198FDE172A90EC2A00F23A9F /* Components */,
+				19B18DDC2A8E7E98008E4B74 /* ListView.swift */,
+				193D9C372A935BD200ACB575 /* ListViewModel.swift */,
+			);
+			path = ListScreen;
+			sourceTree = "<group>";
+		};
+		198FDE152A90E60B00F23A9F /* RoversListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				198FDE192A90EC4100F23A9F /* Components */,
+				19B18DDE2A8E7EA4008E4B74 /* RoversView.swift */,
+				193D9C392A935CD900ACB575 /* RoversViewModel.swift */,
+			);
+			path = RoversListScreen;
+			sourceTree = "<group>";
+		};
+		198FDE162A90E62800F23A9F /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				19B18DC72A8E7BD9008E4B74 /* MainView.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		198FDE172A90EC2A00F23A9F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				19B18DE02A8E8116008E4B74 /* MarsImageView.swift */,
+				19B18DE22A8E814E008E4B74 /* MarsImageInfoView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		198FDE192A90EC4100F23A9F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				19D60DA42A8F7BB60011A4E4 /* RoverManifestView.swift */,
+				19D60DA62A8F81950011A4E4 /* RoverPhotoView.swift */,
+				193D9C3B2A935DA600ACB575 /* RoverPhotoViewModel.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		19B18DB92A8E7BD9008E4B74 = {
 			isa = PBXGroup;
 			children = (
 				19B18DC42A8E7BD9008E4B74 /* NASARover */,
 				19B18DC32A8E7BD9008E4B74 /* Products */,
+				563069AE9C8FF3DB657C7D54 /* Pods */,
+				B10EB821A0C338206E870232 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +135,10 @@
 		19B18DC42A8E7BD9008E4B74 /* NASARover */ = {
 			isa = PBXGroup;
 			children = (
+				19D60DA12A8F76380011A4E4 /* Extensions */,
+				19B18DD42A8E7C30008E4B74 /* Model */,
+				19B18DD32A8E7C27008E4B74 /* Source */,
 				19B18DC52A8E7BD9008E4B74 /* NASARoverApp.swift */,
-				19B18DC72A8E7BD9008E4B74 /* ContentView.swift */,
 				19B18DC92A8E7BDD008E4B74 /* Assets.xcassets */,
 				19B18DCB2A8E7BDD008E4B74 /* Preview Content */,
 			);
@@ -67,6 +153,53 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		19B18DD32A8E7C27008E4B74 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				198FDE162A90E62800F23A9F /* MainScreen */,
+				198FDE152A90E60B00F23A9F /* RoversListScreen */,
+				198FDE142A90E5FE00F23A9F /* ListScreen */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		19B18DD42A8E7C30008E4B74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19B18DD62A8E7C78008E4B74 /* MainData.swift */,
+				19B18DD82A8E7CC8008E4B74 /* MainModel.swift */,
+				19B18DDA2A8E7CE4008E4B74 /* MainRoverAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19D60DA12A8F76380011A4E4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19D60DA22A8F765B0011A4E4 /* View.swift */,
+				198FDE1E2A90ED3B00F23A9F /* Text.swift */,
+				198FDE202A90ED5E00F23A9F /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		563069AE9C8FF3DB657C7D54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A9AFF8FC3ECD210046CE14E /* Pods-NASARover.debug.xcconfig */,
+				56FECE61785D4865CCFF587E /* Pods-NASARover.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B10EB821A0C338206E870232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D6CAA7977E3E7409A57C554 /* Pods_NASARover.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19B18DD02A8E7BDD008E4B74 /* Build configuration list for PBXNativeTarget "NASARover" */;
 			buildPhases = (
+				EC0EFBCEA5D03DDBCD7497BF /* [CP] Check Pods Manifest.lock */,
 				19B18DBE2A8E7BD9008E4B74 /* Sources */,
 				19B18DBF2A8E7BD9008E4B74 /* Frameworks */,
 				19B18DC02A8E7BD9008E4B74 /* Resources */,
+				B031C7C3E4B725721BA5C06B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +267,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B031C7C3E4B725721BA5C06B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NASARover/Pods-NASARover-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NASARover/Pods-NASARover-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NASARover/Pods-NASARover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC0EFBCEA5D03DDBCD7497BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NASARover-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19B18DBE2A8E7BD9008E4B74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19B18DC82A8E7BD9008E4B74 /* ContentView.swift in Sources */,
+				19B18DE32A8E814E008E4B74 /* MarsImageInfoView.swift in Sources */,
+				198FDE1F2A90ED3B00F23A9F /* Text.swift in Sources */,
+				19B18DDF2A8E7EA4008E4B74 /* RoversView.swift in Sources */,
+				198FDE212A90ED5E00F23A9F /* Date.swift in Sources */,
+				19D60DA72A8F81950011A4E4 /* RoverPhotoView.swift in Sources */,
+				193D9C382A935BD200ACB575 /* ListViewModel.swift in Sources */,
+				19B18DDB2A8E7CE4008E4B74 /* MainRoverAPI.swift in Sources */,
+				19B18DC82A8E7BD9008E4B74 /* MainView.swift in Sources */,
+				19B18DDD2A8E7E98008E4B74 /* ListView.swift in Sources */,
+				19D60DA52A8F7BB60011A4E4 /* RoverManifestView.swift in Sources */,
+				19B18DD72A8E7C78008E4B74 /* MainData.swift in Sources */,
+				193D9C3C2A935DA600ACB575 /* RoverPhotoViewModel.swift in Sources */,
 				19B18DC62A8E7BD9008E4B74 /* NASARoverApp.swift in Sources */,
+				19B18DD92A8E7CC8008E4B74 /* MainModel.swift in Sources */,
+				193D9C3A2A935CD900ACB575 /* RoversViewModel.swift in Sources */,
+				19D60DA32A8F765B0011A4E4 /* View.swift in Sources */,
+				19B18DE12A8E8116008E4B74 /* MarsImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +453,7 @@
 		};
 		19B18DD12A8E7BDD008E4B74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9AFF8FC3ECD210046CE14E /* Pods-NASARover.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -273,8 +466,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,14 +476,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-1.NASARover";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		19B18DD22A8E7BDD008E4B74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FECE61785D4865CCFF587E /* Pods-NASARover.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,8 +500,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +510,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-1.NASARover";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

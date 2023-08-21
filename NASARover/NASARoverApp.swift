@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import OSLog
+
+let log = Logger()
 
 @main
 struct NASARoverApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
